@@ -1,0 +1,58 @@
+body {
+	background-image: url("bg-image.jpg");
+	background-size: cover;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: rgb(152, 230, 250);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+label {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+input[type="number"] {
+	padding: 5px;
+	font-size: 20px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+}
+
+button {
+	background-color: #2d4adaba;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 20px;
+	cursor: pointer;
+}
+.reset {
+	padding: 1rem;
+	margin: 5px 0;
+	display: none;
+	cursor: pointer;
+  }
+button:hover {
+	background-color: #98989970;
+}
+
